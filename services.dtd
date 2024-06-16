@@ -1,0 +1,32 @@
+<!ELEMENT clinic (header, main)>
+<!ELEMENT header (title, nav)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT nav (link+)>
+<!ELEMENT link (#PCDATA)>
+<!ATTLIST link
+    href CDATA #REQUIRED
+>
+<!ELEMENT main (serviceAvailability, contactUs, stayConnected)>
+<!ELEMENT serviceAvailability (h2, services)>
+<!ELEMENT h2 (#PCDATA)>
+<!ELEMENT services (service+)>
+<!ELEMENT service (name, charge, nurse, contact, extension)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT charge (#PCDATA)>
+<!ELEMENT nurse (#PCDATA)>
+<!ELEMENT contact (#PCDATA)>
+<!ELEMENT extension (#PCDATA)>
+<!ELEMENT contactUs (h2, info, phone, email, address)>
+<!ELEMENT info (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT stayConnected (h2, updates, socialMedia)>
+<!ELEMENT updates (#PCDATA)>
+<!ELEMENT socialMedia (platform+)>
+<!ELEMENT platform (name, link)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+<!ATTLIST link
+    href CDATA #REQUIRED
+>
