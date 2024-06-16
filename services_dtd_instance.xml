@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE clinic SYSTEM "https://raw.githubusercontent.com/ifsterss/xml-validation/main/services.dtd">
+<clinic>
+    <header>
+        <title>Ify's Wellness Clinic - Services</title>
+        <nav>
+            <link href="index.html">Home</link>
+            <link href="services.html">Services</link>
+            <link href="#contact">Contact Us</link>
+        </nav>
+    </header>
+    <main>
+        <serviceAvailability>
+            <h2>Service Availability</h2>
+            <services>
+                <service>
+                    <name>Cardiology Checkup</name>
+                    <charge>$150</charge>
+                    <nurse>Ade Adebayo</nurse>
+                    <contact>ade.adebayo@ifyswellnessclinic.com</contact>
+                    <extension>ext. 1234</extension>
+                </service>
+                <service>
+                    <name>Neurology Consultation</name>
+                    <charge>$200</charge>
+                    <nurse>Chima Okafor</nurse>
+                    <contact>chima.okafor@ifyswellnessclinic.com</contact>
+                    <extension>ext. 5678</extension>
+                </service>
+                <service>
+                    <name>Pediatric Checkup</name>
+                    <charge>$120</charge>
+                    <nurse>Chiamaka Nwosu</nurse>
+                    <contact>chiamaka.nwosu@ifyswellnessclinic.com</contact>
+                    <extension>ext. 9101</extension>
+                </service>
+                <service>
+                    <name>Orthopedic Services</name>
+                    <charge>$180</charge>
+                    <nurse>Bola Adeola</nurse>
+                    <contact>bola.adeola@ifyswellnessclinic.com</contact>
+                    <extension>ext. 1121</extension>
+                </service>
+                <service>
+                    <name>General Medicine</name>
+                    <charge>$100</charge>
+                    <nurse>Kemi Balogun</nurse>
+                    <contact>kemi.balogun@ifyswellnessclinic.com</contact>
+                    <extension>ext. 3141</extension>
+                </service>
+            </services>
+        </serviceAvailability>
+        <contactUs>
+            <h2>Contact Us</h2>
+            <info>
+                We are here to help you achieve optimal health and wellness. For more information or to schedule an appointment, please contact us:
+            </info>
+            <phone>(123) 456-7890</phone>
+            <email>info@ifyswellnessclinic.com</email>
+            <address>123 Wellness Drive, Health City, HC 12345</address>
+        </contactUs>
+        <stayConnected>
+            <h2>Stay Connected</h2>
+            <updates>Follow us for the latest updates:</updates>
+            <socialMedia>
+                <platform>
+                    <name>Facebook</name>
+                    <link href="#">Ify's Wellness Clinic</link>
+                </platform>
+                <platform>
+                    <name>Twitter</name>
+                    <link href="#">@IfysWellness</link>
+                </platform>
+                <platform>
+                    <name>Instagram</name>
+                    <link href="#">@IfysWellness</link>
+                </platform>
+                <platform>
+                    <name>LinkedIn</name>
+                    <link href="#">Ify's Wellness Clinic</link>
+                </platform>
+            </socialMedia>
+        </stayConnected>
+    </main>
+</clinic>
